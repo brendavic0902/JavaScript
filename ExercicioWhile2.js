@@ -3,6 +3,7 @@ import rl from 'readline-sync'
 let numAlunos = rl.questionInt("Informe o numero de alunos da turma: ");
 let somaMedias = 0;
 let contadorAlunos = 1;
+
 while (contadorAlunos <= numAlunos) 
     console.log(`Aluno ${contadorAlunos}:`);
     let somaNotas = 0;
